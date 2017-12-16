@@ -17,7 +17,6 @@ var grid = clickableGrid(MAX_ROWS,MAX_COLS,function(el,row,col,i){
     setAlive(row, col);
 });
 
-
 function setAlive (row, col) {
     console.log('set alive ' + row + ',' + col);
 
