@@ -28,7 +28,6 @@ function setAlive (row, col) {
                 matrix[j].alive = true;
         }
     }    
-
     updateAllCellCounts();
     refreshLiveCells();
 }
