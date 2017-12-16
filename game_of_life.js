@@ -122,7 +122,6 @@ function initPulsar() {
             matrix[i].alive = true;
         }
 
-
         if (matrix[i].id == 'row:9,col:4') {
             matrix[i].alive = true;
         }
