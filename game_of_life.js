@@ -259,7 +259,7 @@ function startTimer() {
         timer = null;
     } 
 
-    timer = setInterval(applyAllRules, 1000);
+    timer = setInterval(applyAllRules, 500);
 }
 
 function stopTimer() {
